@@ -12,4 +12,4 @@ def findChange(lst01):
         elif lst01[midpoint] == 0:
             left = midpoint + 1
         elif lst01[midpoint - 1] == 1:
-            right = midpoint + 1
+            right = midpoint - 1
