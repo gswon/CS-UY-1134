@@ -1,14 +1,13 @@
-"""
-Question #1 (The source of this problem is from NYU CS1134 recitation)
+**Question #1** (The source of this problem is from NYU CS1134 recitation)
 
 Given a list of sorted elements with some elements occuring more than once, find the first and last
 occurence of the target in O(log(n)) runtime. The output must be in a tuple in the given format:
 (fist, last)
-"""
+      
+          
+Answer below : using two binary search        
+```Python
 
-
-
-# answer below : using two binary search
 def target_first_last(lst, target):
     first, last = None, None
     if lst[0] == target:
@@ -44,3 +43,4 @@ def target_first_last(lst, target):
 
 lst = [1,3,3,4,5,8,8,12]
 print(target_first_last(lst, 8))
+```
