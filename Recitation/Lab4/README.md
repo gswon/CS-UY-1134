@@ -1,4 +1,4 @@
-### This is the answer from recitation class (나의 풀이랑 살짝 다른 경우만 적어둠.)
+### This is the answer from recitation class (나의 풀이랑 살짝 다른 경우 여기에 적어둠.)
 ### c1 to c4.py file is my own answer and it works well!
 <br></br>
 3-b)
@@ -20,4 +20,10 @@ def find_missing2(lst):
             right = mid - 1
         else:
             return mid
+```
+
+
+5)
+```Python
+
 ```
