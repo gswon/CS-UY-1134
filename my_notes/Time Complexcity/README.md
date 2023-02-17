@@ -45,6 +45,6 @@ def func5(n):
 ```
    
    
-Inside the while loop is constant
+Inside the while loop is constant   
 &Theta;(log<sub>2</sub>(n<sup>n</sup>)) = &Theta;(nlog(n))
 Answer: &Theta;(nlog(n))
