@@ -29,7 +29,7 @@ def func3(n):
 ```
     
      
-Answer: &Theta;log(n)
+**Answer: &Theta;log(n)
      
      
      
