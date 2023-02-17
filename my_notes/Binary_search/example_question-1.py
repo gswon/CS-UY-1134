@@ -1,4 +1,6 @@
 """
+Question #1 (The source of this problem is from NYU CS1134 recitation)
+
 Given a list of sorted elements with some elements occuring more than once, find the first and last
 occurence of the target in O(log(n)) runtime. The output must be in a tuple in the given format:
 (fist, last)
