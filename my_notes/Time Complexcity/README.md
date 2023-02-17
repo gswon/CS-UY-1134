@@ -10,7 +10,7 @@ def func2(n):
         i *= 2
         print("*")
 ```
-__   
+_  
 __    
 Θ(log(n<sup>5</sup>)) = Θ(5log(n))   
 **Answer: Θ(log(n))**
