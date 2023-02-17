@@ -14,7 +14,7 @@ def func2(n):
 Θ(log(n<sup>5</sup>)) = Θ(5log(n))    
 **Answer: Θ(log(n))**
 
-<br><br>
+<br></br>
 
 2)
 ```python
@@ -26,7 +26,7 @@ def func3(n):
 ```
    
 **Answer: &Theta;log(n)**
-<br><br>
+<br></br>
   
 
 
