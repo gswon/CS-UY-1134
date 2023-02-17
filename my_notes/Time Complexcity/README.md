@@ -10,8 +10,8 @@ def func2(n):
         i *= 2
         print("*")
 ```
-<br><br>    
-Θ(log(n<sup>5</sup>)) = Θ(5log(n))   
+<br>  
+Θ(log(n<sup>5</sup>)) = Θ(5log(n))    
 **Answer: Θ(log(n))**
 
 <br><br>
@@ -26,8 +26,9 @@ def func3(n):
 ```
 <br><br>
 **Answer: &Theta;log(n)**
-<br><br>
-<br><br>    
+<br>
+<br>
+<br>    
 
 
 3)
@@ -38,9 +39,10 @@ def func5(n):
         i *= 2
         print()
 ```
-<br><br>    
+<br>    
 Inside the while loop is constant   
 &Theta;(log<sub>2</sub>(n<sup>n</sup>)) = &Theta;(nlog(n))   
 **Answer: &Theta;(nlog(n))**
-<br><br>
-<br><br>
+<br>
+<br>
+<br>
