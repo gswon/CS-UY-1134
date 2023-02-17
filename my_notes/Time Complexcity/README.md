@@ -12,7 +12,7 @@ def func2(n):
 ```
 
 Θ(log(n^5)) = Θ(5log(n)) 
-	Answer: Θ(log(n))
+Answer: Θ(log(n))
 
 
 
