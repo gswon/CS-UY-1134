@@ -12,8 +12,7 @@ def func2(n):
 ```
 
 &Theta;(log(n<sup>5</sup>)) = &Theta;5log(n)
-
-Answer: &Theta;(log(n)) 
+ Answer: &Theta;(log(n)) 
 
 
 
