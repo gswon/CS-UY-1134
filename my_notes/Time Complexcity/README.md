@@ -11,7 +11,7 @@ def func2(n):
         print("*")
 ```
 
-Θ(log(n^5)) = Θ(5log(n)) 
+Θ(log(n<sup>5</sup>)) = Θ(5log(n)) 
 Answer: Θ(log(n))
 
 
