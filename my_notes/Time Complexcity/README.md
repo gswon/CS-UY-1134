@@ -1,6 +1,6 @@
 ## Time Complexcity 
 
-# Example Questions
+### Example Questions
 
 ```python
 def func2(n):
@@ -10,4 +10,5 @@ def func2(n):
         print("*")
 ```
 
-Answer: &Theta;
+&Theta;(log(n<sub>5)) = &Theta;5(log(n)
+Answer: &Theta;(log(n)) 
