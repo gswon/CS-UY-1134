@@ -10,13 +10,12 @@ def func2(n):
         i *= 2
         print("*")
 ```
-<br/>
-Θ(log(n<sup>5</sup>)) = Θ(5log(n))     
-**Answer: Θ(log(n))**
+Θ(log(n<sup>5</sup>)) = Θ(5log(n))  
+Answer: Θ(log(n))
 
 <br/>
 <br/>
-<br/>
+
 
 2)
 ```python
@@ -27,7 +26,7 @@ def func3(n):
         print("*")
 ```
 <br/>      
-**Answer: &Theta;log(n)**    
+Answer: &Theta;log(n)
 <br/>
 <br/>
 <br/>
