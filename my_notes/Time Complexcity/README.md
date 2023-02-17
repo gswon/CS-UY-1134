@@ -11,8 +11,9 @@ def func2(n):
         print("*")
 ```
 
-&Theta;(log(n<sup>5</sup>)) = &Theta;5log(n)
- Answer: &Theta;(log(n)) 
+Θ(log(n^5)) = Θ(5log(n))
+Answer: Θ(log(n))
+
 
 
 
