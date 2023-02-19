@@ -1,7 +1,7 @@
 ## Time Complexcity 
 
 Big O <-- Represents the worst case of time complexcity (= upper bound of the graph)    
-&Omega;  <-- Represents the lower bound of the running time    
+&Omega;  <-- Represents the lower bound of the running time (= lower bound of the graph)    
 &Omega; ≤ Θ ≤ Big O    
 
 ### Example Questions
