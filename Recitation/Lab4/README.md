@@ -22,7 +22,7 @@ def find_missing2(lst):
         else:
             return mid
 ```
-
+<br></br>
 Optional 5-a)
 ```Python
 def jump_search(lst, val, k):
