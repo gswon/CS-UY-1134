@@ -23,8 +23,31 @@ def find_missing2(lst):
             return mid
 ```
 
-
-5)
+Optional 5-a)
 ```Python
+def jump_search(lst, val, k):
+    if len(lst) == 0:
+        return None
 
+    curr = 0
+    prev = curr
+    jump = k
+
+    while curr < len(lst) and lst[curr] < val:
+        prev = curr
+        curr += jump
+
+    if curr >= len(lst):
+        prev = curr - jump
+        curr = len(lst) - 1
+
+    while curr >= prev:
+        if lst[curr] == val:
+            return curr
+        curr -= 1
+
+    return None
+
+# Test Code
+print(jump_search([1, 3, 6, 7, 10, 12, 15, 20, 22, 24, 29, 33, 39, 55, 61, 64, 99, 101, 134, 150], 15, 4))
 ```
