@@ -42,6 +42,8 @@ class ArrayList:
                     for i in range(index, self.n-1):
                         change = self.data[i+1]
                         self.data[i] = change
+                        
+                    self.data[self.n-1] = None
                     self.n -= 1
 
                     if self.n < (self.capacity // 4):
