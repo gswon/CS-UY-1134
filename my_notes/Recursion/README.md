@@ -2,7 +2,7 @@
     
 ```Python
 def is_number_of_lowercase_even(s, low, high):   
-    if low == high:    # 여기는 s가 하나일때, 가장 마지막일때를 생각하고 만듬
+    if low == high:    # 여기는 s가 하나일때, 가장 마지막일때를 생각하고 만듬 // base case
         if s[low].islower():
             return False
         else:
