@@ -1,3 +1,5 @@
+# professor's note
+
 import ctypes  # provides low-level arrays
 def make_array(n):
     return (n * ctypes.py_object)()
