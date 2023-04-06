@@ -20,10 +20,14 @@ def permutations(lst):
         for i in range(len(queue)):
             lst_val = queue.dequeue()
             for j in range(len(lst_val) + 1):
-                  queue.enqueue(lst_val[:j]+[val]+lst_val[j:]) # this also works
-#                 lst2 = lst_val.copy()
-#                 lst2.insert(j, val)
-#                 queue.enqueue(lst2)
+                queue.enqueue(lst_val[:j]+[val]+lst_val[j:]) # 1
+                """
+                lst2 = lst_val.copy()
+                lst2.insert(j, val)
+                queue.enqueue(lst2)
+                
+                this also works instead of # 1
+                """
     
     for i in range(len(queue)):
         result.append(queue.dequeue())
