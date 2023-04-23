@@ -1,6 +1,9 @@
 from LinkedBinaryTree import *
 
 def create_expression_tree(prefix_exp_str):
+    if not prefix_exp_str:
+        return LinkedBinaryTree()
+    
     prefix_lst = prefix_exp_str.split(" ")
 
     def create_expression_tree_helper(prefix_exp, start_pos):
