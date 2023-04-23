@@ -32,7 +32,15 @@ def prefix_to_postfix(prefix_exp_str):
     result = list(change.postorder())
     return " ".join([str(node.data) for node in result])
 
+"""
 prefix_exp_str = "- / 6 2 3"
 tree = create_expression_tree(prefix_exp_str)
 postfix_exp = prefix_to_postfix(prefix_exp_str)
 print(postfix_exp)
+
+
+prefix_exp_str = ""
+tree = create_expression_tree(prefix_exp_str)
+postfix_exp = prefix_to_postfix(prefix_exp_str)
+print(postfix_exp)
+"""
