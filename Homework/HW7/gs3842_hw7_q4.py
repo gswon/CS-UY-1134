@@ -118,6 +118,39 @@ class LinkedBinaryTree:
     def __iter__(self):
         for node in self.breadth_first():
             yield node.data
+            
+        def iterative_inorder(self):
+        if self.is_empty():
+            return
+        
+        curr = self.root
+
+        while curr.left is not None:
+            curr = curr.left
+
+        check = None
+
+        while curr is not None:
+            if check == curr.left:
+                yield curr.data
+                check = curr
+                if curr.right is not None:
+                    curr = curr.right
+                else:
+                    curr = curr.parent
+            elif check == curr.right:
+                check = curr
+                curr = curr.parent
+            else:
+                if curr.left is None:
+                    yield curr.data
+                    check = curr
+                    if curr.right is None:
+                        curr = curr.parent
+                    else:
+                        curr = curr.right
+                else:
+                    curr = curr.left
 
 
     def iterative_inorder(self):
