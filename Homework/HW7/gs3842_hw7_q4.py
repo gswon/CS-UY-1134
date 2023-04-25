@@ -119,7 +119,7 @@ class LinkedBinaryTree:
         for node in self.breadth_first():
             yield node.data
             
-        def iterative_inorder(self):
+    def iterative_inorder_version2(self):
         if self.is_empty():
             return
         
